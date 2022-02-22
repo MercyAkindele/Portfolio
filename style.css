@@ -1,0 +1,129 @@
+/* The main header design */
+
+
+div{
+  background-color:#97afa3;
+}
+
+
+
+h1{
+  font-size:60px;
+}
+
+
+
+h2{
+  font-size:30px;
+}
+
+
+
+h1,h2{
+  font-family: 'Times New Roman', Times, serif;
+  color:whitesmoke;
+  text-align:center;
+}
+
+
+/* Navigation design, including text color changes depending on action */
+nav{
+  font-family:'Times New Roman', Times, serif;
+  font-size:25px;
+  text-align:right;
+}
+
+
+
+a{
+  font-weight:750;
+  text-decoration:none;
+}
+a:link{color:rgb(131, 163, 163);}
+a:visited{color:rgb(192, 216, 204);}
+a:hover{color:rgb(192, 216, 224);}
+a:active{color:rgb(216, 224, 220);}
+
+
+/* Diamond shape horizontal ruler */
+hr{
+  height:15px;
+  width:15px;
+  background:darkslategrey;
+  color:darkslategrey;
+  transform:rotate(45deg);
+}
+
+
+
+.image-centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding-top:50px;
+}
+
+
+/* Main style with profile picture and with color seperation between each section. */
+main{
+  background-color:whitesmoke;
+}
+
+
+
+main section{
+  box-sizing:border-box;
+  background-color:rgb(233, 233, 233);
+
+}
+
+
+
+h3{
+  font-family:'Times New Roman', fantasy, serif;
+  font-size:30px;
+  text-align:center;
+}
+
+
+
+p, .list-inside li{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:25px;
+  text-align:left;
+}
+
+
+
+.list-inside li{
+  list-style-position: inside;
+}
+
+
+/*spacing between the content and the box it is in */
+.top-section, .middle-section, .bottom-section{
+  padding:50px;
+  text-align:left;
+  border:50px;
+}
+
+
+/*Spacing between each section */
+.middle-section, .bottom-section{
+  margin-top:25px;
+}
+
+
+/* Footer design */
+footer{
+  color:lightgrey;
+  text-align:center;
+  background-color:darkslategrey;
+  padding-top:25px;
+  padding-bottom:50px;
+}
+
+
+
+
